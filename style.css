@@ -1,13 +1,76 @@
+@font-face {
+    font-family: Outfit;
+    src: url(./fonts/Outfit-ExtraLight.woff2);
+}
+
+body{
+    font-family: Outfit;
+}
+
+p{
+    margin: 0;
+}
+
 button{
-    max-width: 5rem;
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    background-color: white;
+    font-family: Outfit;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    transition-duration: 0.05s;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #e6e6e6;
 }
 
 .calc-body{
     background-color: #F5F5F5;
-    padding: 1rem;
-    margin: auto;
+    padding: 1.5rem 0 2rem 0;
+    margin: 4.5rem auto auto auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 25rem;
+    max-height: 40rem;
+    gap: 2rem;
+    border-radius: 0.5rem;
+}
+
+.screen{
+    background-color: white;
+    font-size: 1.5rem;
+    width: 100%;
+    height: auto;
+    max-width: 20rem;
+    padding: 5rem 0.5rem 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.screen-content{
+    display: flex;
+    gap: 0.25rem;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.row{
+    display: flex;
+    gap: 1rem;
+}
+
+.row-1{
+    margin-left: auto;
+}
+
+.equals{
+    width: 9rem;
 }

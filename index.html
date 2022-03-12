@@ -10,33 +10,37 @@
 <body>
     <div class="calc-body">
         <div class="screen">
-            <p>10x10</p>
+            <div class="screen-content">
+                <p id="element1" class="element1"></p>
+                <p id="elementOp" class="elementOp"></p>
+                <p id="element2" class="element2">0</p>
+            </div>
         </div>
         <div class="buttons">
-            <div class="row-1">
+            <div class="row row-1">
                 <button class="clear">C</button>
-                <button class="divide">/</button>
+                <button id="divide" class="operation">/</button>
             </div>
-            <div class="row-2">
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button class="multiple">x</button>
+            <div class="row">
+                <button class="num-button">7</button>
+                <button class="num-button">8</button>
+                <button class="num-button">9</button>
+                <button id="multiply" class="operation">x</button>
             </div>
-            <div class="row-3">
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button class="subtract">-</button>
+            <div class="row">
+                <button class="num-button">4</button>
+                <button class="num-button">5</button>
+                <button class="num-button">6</button>
+                <button id="subtract" class="operation">-</button>
             </div>
-            <div class="row-4">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button class="add">+</button>
+            <div class="row">
+                <button class="num-button">1</button>
+                <button class="num-button">2</button>
+                <button class="num-button">3</button>
+                <button id="add" class="operation">+</button>
             </div>
-            <div class="row-5">
-                <button>0</button>
+            <div class="row">
+                <button class="num-button">0</button>
                 <button>.</button>
                 <button class="equals">=</button>
             </div>
